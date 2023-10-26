@@ -15,7 +15,7 @@ jobs:
       fail-fast: false
       matrix:
         os: [ubuntu-latest, macOS-latest, windows-latest]
-        jvm: ['11', 'temurin:17']
+        jvm: ['temurin:17']
     steps:
     - uses: actions/checkout@v4
 
