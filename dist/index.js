@@ -65,7 +65,7 @@ function execOutput(cmd, ...args) {
 }
 function downloadCoursier() {
     return __awaiter(this, void 0, void 0, function* () {
-        const baseUrl = `https://github.com/coursier/coursier/releases/download/v${csVersion}/cs-x86_64`;
+        const baseUrl = `https://github.com/VirtusLab/coursier-m1/releases/download/v${csVersion}/cs-aarch64`;
         let csBinary = '';
         switch (process.platform) {
             case 'linux': {
